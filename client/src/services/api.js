@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://ar-9t0i.onrender.com/api';
 
 /**
  * Helper to fetch headers containing Auth token if present
