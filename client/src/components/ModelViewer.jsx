@@ -8,7 +8,7 @@ import { AlertCircle, RotateCcw } from 'lucide-react';
  */
 const GLBModel = ({ url, dimensions, onLoadError }) => {
   const isLocal = url && url.startsWith('/uploads/');
-  const resolvedUrl = isLocal ? `http://localhost:5000${url}` : url;
+  const resolvedUrl = isLocal ? `https://ar-9t0i.onrender.com${url}` : url;
   
   let scene;
   let loadError = null;

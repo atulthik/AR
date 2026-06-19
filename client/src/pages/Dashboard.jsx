@@ -182,7 +182,7 @@ const Dashboard = () => {
             <div className="space-y-4">
               {wishlistItems.map((item) => {
                 const isLocalUpload = item.image && item.image.startsWith('/uploads/');
-                const resolvedImg = isLocalUpload ? `http://localhost:5000${item.image}` : item.image;
+                const resolvedImg = isLocalUpload ? `https://ar-9t0i.onrender.com${item.image}` : item.image;
                 
                 return (
                   <div

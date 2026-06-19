@@ -132,7 +132,7 @@ const Catalog = () => {
           {furniture.map((item) => {
             const isFav = isInWishlist(item._id);
             const isLocalUpload = item.image && item.image.startsWith('/uploads/');
-            const resolvedImgUrl = isLocalUpload ? `http://localhost:5000${item.image}` : item.image;
+            const resolvedImgUrl = isLocalUpload ? `https://ar-9t0i.onrender.com${item.image}` : item.image;
 
             return (
               <div key={item._id} className="group glass-card rounded-3xl overflow-hidden flex flex-col justify-between">
